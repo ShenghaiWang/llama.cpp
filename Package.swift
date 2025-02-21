@@ -14,6 +14,6 @@ let package = Package(
         .library(name: "llama", targets: ["llama"]),
     ],
     targets: [
-        .systemLibrary(name: "llama", pkgConfig: "llama"),
+        .systemLibrary(name: "llama"),
     ]
 )
